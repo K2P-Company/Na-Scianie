@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="Arial,Helvetica,sans-serif"><rect width="400" height="560" fill="#f3e8cd"/><g fill="#d3442c" font-family="Georgia,serif" font-weight="bold"><text x="25" y="188" font-size="144" letter-spacing="-10">ciao,</text><text x="22" y="321" font-size="132" letter-spacing="-9">bella!</text></g><g fill="#d3442c"><circle cx="200" cy="410" r="28"/><path d="M200 360V345M200 475V460M150 410H135M265 410H250M164 374L153 363M247 457L236 446M236 374L247 363M153 457L164 446" stroke="#d3442c" stroke-width="5"/></g><text x="28" y="522" font-size="12" letter-spacing="1.5" fill="#d3442c">UN PO' DI SOLE, OGNI GIORNO.</text><text x="28" y="541" font-size="12" letter-spacing="1" fill="#d3442c">NA ŚCIANĘ / KOLEKCJA 01</text></svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 560"
+  font-family="Arial,Helvetica,sans-serif"
+>
+  <rect width="400" height="560" fill="#f3e8cd" />
+  <g fill="#d3442c" font-family="Georgia,serif" font-weight="bold">
+    <text x="25" y="188" font-size="144" letter-spacing="-10">ciao,</text>
+    <text x="22" y="321" font-size="132" letter-spacing="-9">bella!</text>
+  </g>
+  <g fill="#d3442c">
+    <circle cx="200" cy="410" r="28" />
+    <path
+      d="M200 360V345M200 475V460M150 410H135M265 410H250M164 374L153 363M247 457L236 446M236 374L247 363M153 457L164 446"
+      stroke="#d3442c"
+      stroke-width="5"
+    />
+  </g>
+  <text x="28" y="522" font-size="12" letter-spacing="1.5" fill="#d3442c">
+    UN PO' DI SOLE, OGNI GIORNO.
+  </text>
+  <text x="28" y="541" font-size="12" letter-spacing="1" fill="#d3442c">
+    NA ŚCIANĘ / KOLEKCJA 01
+  </text>
+</svg>

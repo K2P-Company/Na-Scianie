@@ -1,1 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="Arial,Helvetica,sans-serif"><rect width="400" height="560" fill="#e993b1"/><path d="M24 35H376" stroke="#952a2c"/><text x="27" y="60" font-size="12" letter-spacing="1.5" fill="#952a2c">NIE WSZYSTKO NA WCZORAJ.</text><g font-family="Georgia,serif" font-weight="bold" font-size="125" letter-spacing="-8" fill="#952a2c"><text x="23" y="209">wol</text><text x="23" y="324">niej</text><text x="215" y="418">.</text></g><path d="M40 400C120 350 230 458 347 377" stroke="#952a2c" fill="none" stroke-width="3"/><text x="28" y="502" font-size="12" letter-spacing="1" fill="#952a2c">ODDYCHAJ. MASZ CZAS.</text><text x="28" y="536" font-size="12" letter-spacing="1" fill="#952a2c">NA ŚCIANĘ / KOLEKCJA 01</text></svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 560"
+  font-family="Arial,Helvetica,sans-serif"
+>
+  <rect width="400" height="560" fill="#e993b1" />
+  <path d="M24 35H376" stroke="#952a2c" />
+  <text x="27" y="60" font-size="12" letter-spacing="1.5" fill="#952a2c">
+    NIE WSZYSTKO NA WCZORAJ.
+  </text>
+  <g
+    font-family="Georgia,serif"
+    font-weight="bold"
+    font-size="125"
+    letter-spacing="-8"
+    fill="#952a2c"
+  >
+    <text x="23" y="209">wol</text>
+    <text x="23" y="324">niej</text>
+    <text x="215" y="418">.</text>
+  </g>
+  <path d="M40 400C120 350 230 458 347 377" stroke="#952a2c" fill="none" stroke-width="3" />
+  <text x="28" y="502" font-size="12" letter-spacing="1" fill="#952a2c">ODDYCHAJ. MASZ CZAS.</text>
+  <text x="28" y="536" font-size="12" letter-spacing="1" fill="#952a2c">
+    NA ŚCIANĘ / KOLEKCJA 01
+  </text>
+</svg>

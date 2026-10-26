@@ -1,1 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="Arial,Helvetica,sans-serif"><rect width="400" height="560" fill="#dce781"/><text x="27" y="41" font-size="12" letter-spacing="1.5" fill="#2a4330">JESTEŚ DOKŁADNIE TUTAJ.</text><g fill="#2a4330" font-weight="bold" font-size="112" letter-spacing="-7"><text x="26" y="179">TU</text><text x="26" y="288">I TE</text><text x="26" y="397">RAZ.</text></g><path d="M270 105L350 185M350 105L270 185" stroke="#2a4330" stroke-width="8"/><path d="M27 444H373" stroke="#2a4330"/><text x="27" y="483" font-family="Georgia,serif" font-style="italic" font-size="24" fill="#2a4330">Reszta może poczekać.</text><text x="27" y="535" font-size="12" letter-spacing="1" fill="#2a4330">NA ŚCIANĘ / KOLEKCJA 01</text></svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 560"
+  font-family="Arial,Helvetica,sans-serif"
+>
+  <rect width="400" height="560" fill="#dce781" />
+  <text x="27" y="41" font-size="12" letter-spacing="1.5" fill="#2a4330">
+    JESTEŚ DOKŁADNIE TUTAJ.
+  </text>
+  <g fill="#2a4330" font-weight="bold" font-size="112" letter-spacing="-7">
+    <text x="26" y="179">TU</text>
+    <text x="26" y="288">I TE</text>
+    <text x="26" y="397">RAZ.</text>
+  </g>
+  <path d="M270 105L350 185M350 105L270 185" stroke="#2a4330" stroke-width="8" />
+  <path d="M27 444H373" stroke="#2a4330" />
+  <text
+    x="27"
+    y="483"
+    font-family="Georgia,serif"
+    font-style="italic"
+    font-size="24"
+    fill="#2a4330"
+  >
+    Reszta może poczekać.
+  </text>
+  <text x="27" y="535" font-size="12" letter-spacing="1" fill="#2a4330">
+    NA ŚCIANĘ / KOLEKCJA 01
+  </text>
+</svg>

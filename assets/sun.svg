@@ -1,1 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" font-family="Arial,Helvetica,sans-serif"><rect width="400" height="560" fill="#f0ddbd"/><text x="30" y="47" fill="#8c402b" font-size="12" letter-spacing="4">P O Ł U D N I E</text><circle cx="255" cy="203" r="91" fill="#cb5734"/><path d="M0 337L134 214L281 367L400 273V560H0Z" fill="#b58d5a"/><path d="M0 407C125 330 173 402 265 373S360 345 400 372V560H0Z" fill="#d5ac75"/><path d="M0 463C89 410 222 488 400 432V560H0Z" fill="#e5c697"/><path d="M30 503H370" stroke="#8c402b"/><text x="30" y="532" font-size="12" letter-spacing="1" fill="#8c402b">GDZIEŚ MIĘDZY SŁOŃCEM A CISZĄ.</text></svg>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 400 560"
+  font-family="Arial,Helvetica,sans-serif"
+>
+  <rect width="400" height="560" fill="#f0ddbd" />
+  <text x="30" y="47" fill="#8c402b" font-size="12" letter-spacing="4">P O Ł U D N I E</text>
+  <circle cx="255" cy="203" r="91" fill="#cb5734" />
+  <path d="M0 337L134 214L281 367L400 273V560H0Z" fill="#b58d5a" />
+  <path d="M0 407C125 330 173 402 265 373S360 345 400 372V560H0Z" fill="#d5ac75" />
+  <path d="M0 463C89 410 222 488 400 432V560H0Z" fill="#e5c697" />
+  <path d="M30 503H370" stroke="#8c402b" />
+  <text x="30" y="532" font-size="12" letter-spacing="1" fill="#8c402b">
+    GDZIEŚ MIĘDZY SŁOŃCEM A CISZĄ.
+  </text>
+</svg>
