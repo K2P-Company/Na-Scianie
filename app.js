@@ -31,9 +31,14 @@ const productDialog=document.querySelector('#product-dialog');
 const cartDialog=document.querySelector('#cart-dialog');
 const checkoutDialog=document.querySelector('#checkout-dialog');
 let returnFocus=null;
+let modalScroll=0;
 function openDialog(dialog){
   const another=document.querySelector('dialog[open]');
-  if(!another)returnFocus=document.activeElement;
+  if(!another){
+    returnFocus=document.activeElement;
+    modalScroll=window.scrollY;
+    document.body.style.setProperty('--modal-scroll', `-${modalScroll}px`);
+  }
   else another.close();
   document.body.classList.add('modal-open');
   dialog.showModal();
@@ -43,6 +48,8 @@ document.querySelectorAll('dialog').forEach(dialog=>{
   dialog.addEventListener('close',()=>{
     if(document.querySelector('dialog[open]'))return;
     document.body.classList.remove('modal-open');
+    document.body.style.removeProperty('--modal-scroll');
+    window.scrollTo({top:modalScroll,behavior:'instant'});
     if(returnFocus?.isConnected)returnFocus.focus({preventScroll:true});
   });
   dialog.addEventListener('click',event=>{
