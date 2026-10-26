@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="NA ŚCIANĘ — koncepcyjny sklep z autorskimi plakatami. Interaktywne demo K2P: katalog, warianty i koszyk.">
+  <title>NA ŚCIANĘ — mała zmiana, duży charakter.</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=11"><script src="app.js?v=4" defer></script>
+</head>
+<body>
+  <a class="skip" href="#katalog">Przejdź do plakatów</a>
+  <div class="demo-strip">Koncepcyjny sklep K2P <span>·</span> oglądaj, wybieraj, testuj — bez prawdziwych zakupów.</div>
+  <header class="header">
+    <a href="#" class="logo" aria-label="NA ŚCIANĘ — strona główna"><img src="assets/na-sciane-logo.svg?v=4" alt="na ścianę" width="218" height="50"></a>
+    <nav aria-label="Menu główne"><a href="#katalog">Plakaty</a><a href="#o-kolekcji">O kolekcji</a></nav>
+    <button class="cart-button" data-open-cart>Koszyk <span id="cart-count">0</span></button>
+  </header>
+  <main>
+    <section class="exhibition" aria-labelledby="hero-title">
+      <div class="exhibition-label"><span>NIEZALEŻNA GALERIA PLAKATÓW</span><span>KOLEKCJA 001 — OTWARTA DLA WSZYSTKICH</span></div>
+      <h1 id="hero-title">POWIEŚ COŚ<span>!</span></h1>
+      <div class="exhibition-wall" aria-label="Wybierz plakat ze ściany wystawowej">
+        <p class="wall-note">Pusta ściana?<br><em>Mamy kilka myśli.</em><span aria-hidden="true">⤵</span></p>
+        <button class="wall-piece wall-one" data-product="slow" aria-label="Zobacz plakat Wolniej"><span class="wall-frame"><img src="assets/slow.svg?v=2" alt="Plakat Wolniej" width="400" height="560"></span><span class="wall-caption"><span>01 / WOLNIEJ</span><span>59 ZŁ <b>↗</b></span></span></button>
+        <button class="wall-piece wall-two" data-product="orbit" aria-label="Zobacz plakat Orbita"><span class="wall-frame"><img src="assets/orbit.svg?v=2" alt="Plakat Orbita" width="400" height="560"></span><span class="wall-caption"><span>02 / ORBITA</span><span>69 ZŁ <b>↗</b></span></span></button>
+        <button class="wall-piece wall-three" data-product="here" aria-label="Zobacz plakat Tu i teraz"><span class="wall-frame"><img src="assets/here.svg?v=2" alt="Plakat Tu i teraz" width="400" height="560"></span><span class="wall-caption"><span>03 / TU I TERAZ</span><span>59 ZŁ <b>↗</b></span></span></button>
+        <span class="wall-coordinate">ŚCIANA 001<br>KOLEKCJA 2026<br><span>TWÓJ KAWAŁEK ŚWIATA</span></span>
+      </div>
+      <div class="exhibition-bottom"><p>Nie dobieraj do kanapy.<br><strong>Dobierz do siebie.</strong></p><a href="#katalog">CAŁA KOLEKCJA <span aria-hidden="true">↓</span></a><p>ABSTRAKCJA / TYPOGRAFIA / NATURA<br>OD 59 ZŁ · TRZY FORMATY</p></div>
+    </section>
+    <section class="catalog section" id="katalog" aria-labelledby="catalog-title">
+      <div class="section-head"><div><h2 id="catalog-title">Znajdź swój punkt.</h2></div><p>Osiem pomysłów. Żadnego złego wyboru.<br>Kliknij plakat i przymierz swój format.</p></div>
+      <div class="catalog-tools">
+        <div class="filters" role="group" aria-label="Kategorie plakatów"><button data-category="all" aria-pressed="true">Wszystkie <span>8</span></button><button data-category="Abstrakcja" aria-pressed="false">Abstrakcja</button><button data-category="Typografia" aria-pressed="false">Typografia</button><button data-category="Natura" aria-pressed="false">Natura</button></div>
+        <label class="sort-label">Sortuj <select id="sort"><option value="featured">Polecane</option><option value="price-up">Cena rosnąco</option><option value="price-down">Cena malejąco</option><option value="name">Nazwa A–Z</option></select></label>
+      </div>
+      <div class="catalog-meta"><p id="results" role="status"></p><label class="search-label"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Szukaj swojego klimatu…" aria-label="Szukaj plakatów po nazwie lub opisie"></label></div>
+      <div class="products" id="products"></div><div id="empty-search" hidden><p>Jeszcze nie ten klimat?</p><span>Spróbuj innego hasła lub zobacz całą kolekcję.</span><button class="text-button" id="reset-search">Pokaż wszystkie plakaty</button></div>
+    </section>
+    <section class="collection section" id="o-kolekcji" aria-labelledby="collection-title">
+      <div class="collection-poster"><img src="assets/leaves.svg?v=2" alt="Plakat Zielnik — graficzne liście na jasnym tle" loading="lazy" width="400" height="560"><span>MAŁY FORMAT.<br>WIELKA RÓŻNICA.</span></div>
+      <div class="collection-copy"><p class="eyebrow">BEZ WIELKIEJ FILOZOFII</p><h2 id="collection-title">Twoje miejsce.<br><em>Twoje zasady.</em></h2><p>Nie trzeba remontu, żeby zmienić atmosferę. Czasem wystarczy jedno mocne „tak, to moje”. Odważny kolor, spokojna forma albo dwa słowa, które chcesz mieć pod ręką.</p><p>Ta kolekcja łączy autorskie kompozycje wektorowe z typografią. Mieszaj style, przymierzaj formaty i układaj swoją małą galerię.</p><a href="#katalog" class="text-button">Wróć do kolekcji <span aria-hidden="true">↗</span></a><div class="collection-facts"><div><strong>03</strong><span>formaty do wyboru</span></div><div><strong>08</strong><span>autorskich kompozycji</span></div><div><strong>∞</strong><span>pomysłów na Twoją ścianę</span></div></div></div>
+    </section>
+    <section class="faq section" aria-labelledby="faq-title"><h2 id="faq-title">Zanim wybierzesz.</h2><div><details><summary>Czy mogę naprawdę zamówić plakat?</summary><p>To projekt demonstracyjny K2P. Możesz przetestować wybór wariantów, koszyk i podsumowanie zamówienia. Nie pobieramy płatności, nie zbieramy danych do wysyłki i nie realizujemy zamówień.</p></details><details><summary>Jak działają formaty i ramy?</summary><p>W karcie produktu wybierz 30 × 40, 50 × 70 lub 70 × 100 cm. Możesz dodać ramę czarną lub w kolorze naturalnego drewna. Cena i podgląd zmienią się wraz z wyborem. To symulacja oferty.</p></details><details><summary>Czy mój koszyk zostanie zapisany?</summary><p>Tak, lokalnie w tej przeglądarce, jeśli zezwala ona na zapis. Koszyk nie trafia na serwer. Możesz usunąć każdą pozycję lub wyczyścić wszystko w koszyku.</p></details></div></section>
+  </main>
+  <footer><a class="logo" href="#"><img src="assets/na-sciane-logo-footer.svg?v=4" alt="na ścianę" width="218" height="50"></a><p>Autorskie kompozycje. Sklep koncepcyjny.<br>Projekt i wykonanie: K2P Web Studio.</p><small>© 2026 · Demo portfolio · Żadne zamówienie nie zostanie zrealizowane.</small></footer>
+  <dialog id="product-dialog" aria-labelledby="detail-name"><button class="close" data-close aria-label="Zamknij produkt">×</button><div id="product-detail"></div></dialog>
+  <dialog id="cart-dialog" aria-labelledby="cart-title"><div class="drawer-head"><h2 id="cart-title">Twój wybór<span>.</span></h2><button class="close" data-close aria-label="Zamknij koszyk">×</button></div><p class="drawer-note">Mała galeria zaczyna się tutaj.</p><div id="cart-items"></div><div id="cart-bottom"></div></dialog>
+  <dialog id="checkout-dialog" aria-labelledby="checkout-title"><button class="close" data-close aria-label="Zamknij podsumowanie">×</button><div id="checkout-content"></div></dialog>
+  <p class="toast" id="toast" role="status" hidden></p>
+</body></html>
